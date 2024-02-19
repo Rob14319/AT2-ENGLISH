@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.Heading{
+    display: flex;
+    background: #0094FF;
+    height: 7vh;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+}
+.icon{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    height: 15vh;
+}
+.send{
+    margin-top: 2rem;
+}
+.button{
+    margin-top: 2.5rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 2.5rem;
+}
+.button button{
+    cursor: pointer;
+    width: 15rem;
+    background: #0094FF;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.follow{
+    margin-top: .7rem;
+    text-align: center;
+    font-size: smaller;
+    color: #3F3F3F;
+}
+.specs{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.specs img{
+    height: 60px;
+}
+.spec1{
+    align-items: center;
+    text-align: center;
+}
+.specs p{
+    margin-top: .5rem;
+    font-size: small;
+    font-weight: 600;
+    color: #35485A;
+}
+.footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        color: #3F3F3F;
+        font-size: x-small;
+        margin-top: 20rem;
+        margin-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: .5px solid #8a8282;
+    }
+span{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.code{
+    margin-top: 1rem;
+}
